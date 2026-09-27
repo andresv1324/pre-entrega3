@@ -1,0 +1,187 @@
+/* Google Fonts*/
+    /* Poppins | Uso En Titulos */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 400; */
+    /* font-style: normal; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    /* Inter @ Uso Para Textox */
+    /* font-family: "Inter", sans-serif; */
+    /* font-weight: 400; */
+    /* font-style: normal */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Generales */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #0B1020;
+    color: #FFFFFF;
+}
+
+/* Contenidos */
+section {
+    background-color: #172554;
+    padding: 20px;
+}
+
+article {
+    background-color: #1E3A5F;
+    padding: 20px;
+}
+
+/* TiTULOS */
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+figcaption {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+/* ENLACES */
+a {
+    text-decoration: none;
+    color: #00D9FF;
+}
+
+/* Elementos */
+iframe {
+    width: 400px;
+    height: 200px;
+}
+
+button {
+    background-color: #00D9FF;
+    color: #0B1020;
+}
+
+/* Estilo Navbar */
+header nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    font-size: 25px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+/* Estilos Footer */
+footer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #0B1020;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section{
+    background-color: #0B1020;
+    align-items: center;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: row;
+}
+
+footer section nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    align-items: center;
+}
+
+.redes nav a{
+    width: 2rem;
+}
+
+/* Estilos Flex | Model-box Index */
+
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.biografiaIndex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trayectoriaIndex{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilos Flex | Model-box Album */
+
+.mainAlbum{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destacadaAlbum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destacadaAlbum div{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: .5rem;
+}
+
+.destacadaAlbum div article{
+    flex: 1;
+}
+
+.destacadaAlbum div article p{
+    padding: 20px;
+}
